@@ -1,0 +1,1 @@
+# graphql-liquibase-H2DB
