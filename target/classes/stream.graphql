@@ -1,0 +1,15 @@
+schema {
+ query: Query
+}
+
+type Query {
+ getAllStream: [StreamOpti]
+ findStream(id: Long!): StreamOpti
+ findStreamByName(name: String!): [StreamOpti]
+}
+
+type StreamOpti {
+  id: Long!
+  name: String!
+  description: String!
+}
